@@ -1015,6 +1015,18 @@ body{
 	End Fun Facts
 =====================*/
 
+ul.star-bullets {
+	list-style-type: none; /* Remove default bullets */
+	padding: 0;
+  }
+  ul.star-bullets li::before {
+	content: "★"; /* Unicode star character */
+	color: gold; /* Change color of the star */
+	margin-right: 10px; /* Add spacing between the star and text */
+  }
+
+
+
 /*===================
 	Why choose CSS
 =====================*/
